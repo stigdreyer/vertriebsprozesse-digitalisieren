@@ -1,0 +1,21 @@
+# vertriebsprozesse-digitalisieren.de
+
+> Hands-on-Beratung und Umsetzung für Kundenmanagement (CRM), Angebotsmanagement (CPQ) und Auftragsmanagement bei kleinen und mittelständischen B2B-Unternehmen im DACH-Raum. Fixpreise statt Tagessätze, ein automatisierter Anwendungsfall pro Schritt, produktiv in 1–2 Wochen.
+
+Stig Hendrik Dreyer ist unabhängiger Berater für digitale Vertriebsinfrastruktur. Der Fokus liegt auf der Lücke zwischen Lead-Erfassung, Angebotserstellung und Auftragsabwicklung, die bei kleinen und mittelständischen Unternehmen häufig noch manuell überbrückt wird.
+
+## Leistungen
+
+- [CRM automatisieren](https://vertriebsprozesse-digitalisieren.de/crm-automatisieren/): CRM-Konfiguration, Automatisierung und Datenqualität, für ein bereits eingeführtes CRM, das im Alltag tatsächlich genutzt wird, oder für ein erstes CRM-System.
+- [Angebotsprozess automatisieren](https://vertriebsprozesse-digitalisieren.de/angebotsprozess-automatisieren/): Schnelle, verbindliche Angebotserstellung – Preislogik, Freigaben und automatisierter Abschluss, ohne dass ein vollständiges CPQ-System der erste Schritt sein muss.
+- [Auftragsmanagement automatisieren](https://vertriebsprozesse-digitalisieren.de/auftragsmanagement-automatisieren/): Automatisierung der Auftragsabwicklung nach Vertragsabschluss.
+
+## Über
+
+- [Startseite](https://vertriebsprozesse-digitalisieren.de/): Positionierung, Prozessübersicht, Leistungsarten, Über mich.
+- [Kontakt](https://vertriebsprozesse-digitalisieren.de/kontakt/): Terminbuchung und Kontaktformular.
+
+## Rechtliches
+
+- [Impressum](https://vertriebsprozesse-digitalisieren.de/impressum/)
+- [Datenschutzerklärung](https://vertriebsprozesse-digitalisieren.de/datenschutz/)
