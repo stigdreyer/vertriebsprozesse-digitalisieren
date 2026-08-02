@@ -704,7 +704,7 @@ footer { padding: 56px 0 36px; font-size: 13.5px; color: var(--ink-faint); borde
   .nav-links-collapsible a, .nav-dropdown-trigger { padding: 12px 0; width: 100%; text-align: left; }
   .nav-links-collapsible .nav-dropdown { width: 100%; }
   .nav-dropdown-menu {
-    position: static; opacity: 1; visibility: visible; pointer-events: auto; padding-top: 0;
+    position: static; opacity: 1; visibility: visible; pointer-events: auto; padding-top: 0; transform: none;
   }
   .nav-dropdown-menu-inner {
     box-shadow: none; background: none; padding: 0 0 4px 14px; transform: none;
