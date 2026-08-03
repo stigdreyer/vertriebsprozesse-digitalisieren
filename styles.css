@@ -37,6 +37,17 @@
 }
 
 * { box-sizing: border-box; }
+/* <picture> is only ever a WebP-fallback wrapper here, never a layout box. Without this it becomes
+   the flex item in place of the <img> it wraps — and since flex-shrink/width live on the img's own
+   class (.author-bio-photo, .trust-banner photo, etc.), the wrapper shrinks freely and squashes the
+   image to a non-square box, which turns border-radius:50% into an ellipse instead of a circle.
+   display:contents removes the wrapper from the box tree so the img stays the flex item, exactly as
+   it behaved before the WebP wrappers were added. Don't remove without re-checking those avatars. */
+picture { display: contents; }
+/* Required companion to the rule above: <source> is NOT display:none in the UA stylesheet, so once
+   display:contents removes the <picture> box, each <source> becomes a real (zero-width) flex item.
+   In a flex parent with a gap that adds one phantom gap-width of space before the image. */
+picture > source { display: none; }
 html { scroll-behavior: smooth; }
 body {
   background: var(--paper); color: var(--ink);
@@ -780,6 +791,19 @@ a.tag-pill:hover { background: var(--accent); color: #fff; }
 }
 .blog-toc #TableOfContents a:hover, .blog-toc #TableOfContents a:focus-visible { background: var(--accent-tint); color: var(--accent-strong); }
 .blog-toc #TableOfContents a:active { background: var(--accent-tint); }
+/* Current-section marker, set by static/blog-toc.js. Deliberately an accent bar + weight change
+   rather than a tinted background, so it stays distinguishable from :hover when the pointer happens
+   to rest on the active entry (both applying a background would make them indistinguishable).
+   The bar is an absolutely-positioned pseudo-element, not an inset box-shadow: a box-shadow would
+   be clipped to the link's border-radius:8px and render with rounded ends, whereas the pseudo-element
+   is unaffected by the parent radius and stays a straight bar. It's also out of flow, so the label
+   text doesn't shift by the bar's width the way border-left would move it. */
+.blog-toc #TableOfContents a { position: relative; }
+.blog-toc #TableOfContents a.is-active { color: var(--accent-strong); font-weight: 700; }
+.blog-toc #TableOfContents a.is-active::before {
+  content: ""; position: absolute; left: 0; top: 10%; bottom: 10%; width: 2px;
+  background: var(--accent);
+}
 
 .blog-content { font-size: 16.5px; }
 .blog-content > p:first-of-type { font-size: 18.5px; color: var(--ink); line-height: 1.6; }
@@ -814,14 +838,43 @@ a.tag-pill:hover { background: var(--accent); color: #fff; }
 
 .author-bio { display: flex; gap: 16px; align-items: flex-start; background: var(--paper-raised); border-radius: 18px; padding: 20px 22px; box-shadow: var(--shadow); }
 .author-bio-photo { width: 56px; height: 56px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
+/* `.blog-content img` (border-radius:14px, for in-article images) is specificity 0-1-1 and so beats
+   the 0-1-0 rule above — which silently turned this avatar into a rounded rectangle. The author box is
+   UI chrome inside the article wrapper, not article content, so re-assert the circle at 0-2-0. */
+.blog-content .author-bio-photo { border-radius: 50%; }
 .author-bio-name { font-size: 14.5px; font-weight: 700; margin: 0 0 4px; color: var(--ink); }
 .author-bio-text { font-size: 13.5px; color: var(--ink-soft); line-height: 1.55; margin: 0; }
 .author-bio-text a { color: var(--accent-strong); }
 
-.blog-post-nav { display: flex; gap: 16px; max-width: 900px; margin: 32px auto; }
-.blog-post-nav-link { flex: 1; background: var(--paper-raised); border-radius: 14px; padding: 14px 18px; text-decoration: none; color: var(--ink); box-shadow: var(--shadow); font-size: 13.5px; font-weight: 600; line-height: 1.4; }
-.blog-post-nav-link span { display: block; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; color: var(--ink-faint); margin-bottom: 4px; }
-.blog-post-nav-next { text-align: right; }
+/* Deliberately NOT cards: the .blog-explore grid directly below already carries the card treatment,
+   so repeating it here made two competing card blocks in a row. This is wayfinding, not content —
+   a hairline rule plus two plain links reads as lighter and lets the explore grid stay the focal point. */
+.blog-post-nav {
+  display: flex; gap: 24px; max-width: 900px; margin: 36px auto 0;
+  border-top: 1px solid var(--line); padding-top: 20px;
+}
+.blog-post-nav-link { display: flex; flex-direction: column; gap: 6px; max-width: 46%; text-decoration: none; }
+/* margin-left:auto (not justify-content:space-between) so "Älter" still sits right when it's the
+   only link — on the newest post there is no "Neuer" sibling to push it over. */
+.blog-post-nav-next { margin-left: auto; text-align: right; align-items: flex-end; }
+.blog-post-nav-dir {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
+  color: var(--ink-faint); transition: color 0.15s ease;
+}
+.blog-post-nav-arrow { display: inline-block; transition: transform 0.18s ease; }
+.blog-post-nav-title { font-size: 14.5px; font-weight: 700; line-height: 1.35; color: var(--ink); transition: color 0.15s ease; }
+.blog-post-nav-link:hover .blog-post-nav-title,
+.blog-post-nav-link:hover .blog-post-nav-dir,
+.blog-post-nav-link:focus-visible .blog-post-nav-title,
+.blog-post-nav-link:focus-visible .blog-post-nav-dir { color: var(--accent-strong); }
+.blog-post-nav-prev:hover .blog-post-nav-arrow { transform: translateX(-3px); }
+.blog-post-nav-next:hover .blog-post-nav-arrow { transform: translateX(3px); }
+@media (prefers-reduced-motion: reduce) {
+  .blog-post-nav-arrow { transition: none; }
+  .blog-post-nav-prev:hover .blog-post-nav-arrow,
+  .blog-post-nav-next:hover .blog-post-nav-arrow { transform: none; }
+}
 
 .blog-explore { max-width: 900px; margin: 40px auto 0; }
 .blog-explore-eyebrow { font-family: ui-monospace, monospace; font-size: 12px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent-strong); margin: 0 0 8px; }
@@ -852,7 +905,8 @@ a.tag-pill:hover { background: var(--accent); color: #fff; }
 }
 @media (max-width: 720px) {
   .blog-grid { grid-template-columns: 1fr; }
-  .blog-post-nav { flex-direction: column; }
-  .blog-post-nav-next { text-align: left; }
+  .blog-post-nav { flex-direction: column; gap: 18px; }
+  .blog-post-nav-link { max-width: 100%; }
+  .blog-post-nav-next { margin-left: 0; text-align: left; align-items: flex-start; }
   .blog-explore-grid { grid-template-columns: 1fr; }
 }
