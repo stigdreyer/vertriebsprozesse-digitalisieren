@@ -831,10 +831,73 @@ a.tag-pill:hover { background: var(--accent); color: var(--on-accent); }
 }
 .blog-content tbody tr:last-child td { border-bottom: none; }
 .blog-content tbody tr:nth-child(even) td { background: var(--paper-raised); }
-.blog-content .table-check { display: inline-block; font-size: 22px; line-height: 1; color: var(--ink-faint); vertical-align: middle; }
+.blog-content .table-check {
+  appearance: none; -webkit-appearance: none; margin: 0; cursor: pointer;
+  width: 24px; height: 24px; border-radius: 7px; border: 2px solid var(--line);
+  background: var(--paper); display: inline-flex; align-items: center; justify-content: center;
+  vertical-align: middle; transition: border-color 0.15s ease;
+}
+.blog-content .table-check:hover { border-color: var(--accent); }
+.blog-content .table-check:checked {
+  background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+  border-color: var(--accent-strong);
+  animation: table-check-pop 0.22s ease;
+}
+.blog-content .table-check:checked::after {
+  content: ""; width: 6px; height: 11px;
+  border: solid var(--on-accent-strong); border-width: 0 2.5px 2.5px 0; transform: rotate(45deg) translate(-1px, -1px);
+}
+@keyframes table-check-pop { 0% { transform: scale(0.7); } 60% { transform: scale(1.12); } 100% { transform: scale(1); } }
+.blog-content table tbody tr:has(.table-check:checked) td:first-child {
+  border-left: 3px solid var(--accent);
+}
+.blog-content table tbody tr:has(.table-check:checked) td:nth-child(2) {
+  color: var(--ink); font-weight: 600;
+}
 @media (max-width: 560px) {
   .blog-content table { display: block; overflow-x: auto; white-space: nowrap; }
 }
+
+/* Process-flow diagrams (sequential steps) */
+.blog-content .flow-card { background: var(--paper-raised); border-radius: 20px; box-shadow: var(--shadow); padding: 28px 24px 24px; margin: 28px 0; }
+.blog-content .flow { display: flex; flex-direction: column; }
+.blog-content .flow-step { display: flex; align-items: center; gap: 16px; padding: 16px 18px; border-radius: 14px; background: var(--paper); border: 1px solid var(--line); transition: transform 0.18s ease, box-shadow 0.18s ease; }
+.blog-content .flow-step:hover { transform: translateX(3px); box-shadow: var(--shadow); }
+.blog-content .flow-num {
+  flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+  color: var(--on-accent-strong); font-weight: 700; font-size: 15px;
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 4px 10px -2px rgba(255, 93, 58, 0.45);
+}
+.blog-content .flow-text { font-size: 14.5px; font-weight: 600; color: var(--ink); line-height: 1.35; }
+.blog-content .flow-connector { display: flex; justify-content: flex-start; padding-left: 35px; height: 26px; }
+.blog-content .flow-connector svg { display: block; }
+.blog-content .flow-plus { display: flex; justify-content: flex-start; align-items: center; padding-left: 27px; height: 30px; color: var(--ink-faint); font-size: 18px; font-weight: 700; }
+.blog-content .flow-outcome { margin-top: 6px; display: flex; align-items: center; gap: 14px; background: linear-gradient(135deg, var(--accent-tint), transparent); border: 1px solid var(--accent); border-radius: 14px; padding: 16px 18px; }
+.blog-content .flow-outcome-icon { flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%; background: var(--paper-raised); display: flex; align-items: center; justify-content: center; color: var(--accent-strong); box-shadow: var(--shadow); }
+.blog-content .flow-outcome-text { font-size: 14.5px; font-weight: 700; color: var(--ink); }
+.blog-content .flow-caption { text-align: center; font-size: 12.5px; color: var(--ink-faint); margin: 16px 0 0; }
+
+/* Decision-branch diagrams (one question, two outcomes) */
+.blog-content .decision-card { background: var(--paper-raised); border-radius: 20px; box-shadow: var(--shadow); padding: 28px 24px 24px; margin: 28px 0; }
+.blog-content .decision-q { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: 16px 20px; text-align: center; font-weight: 600; font-size: 14.5px; color: var(--ink); }
+.blog-content .decision-arrows { display: flex; justify-content: space-around; padding: 4px 8px 0; color: var(--ink-faint); }
+.blog-content .decision-branches { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 4px; }
+.blog-content .decision-branch { flex: 1 1 220px; display: flex; flex-direction: column; gap: 10px; }
+.blog-content .decision-condition { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; font-size: 13.5px; color: var(--ink-soft); min-height: 60px; display: flex; align-items: center; }
+.blog-content .decision-result { background: linear-gradient(135deg, var(--accent-tint), transparent); border: 1px solid var(--accent); border-radius: 14px; padding: 14px 16px; font-weight: 700; font-size: 14px; color: var(--ink); text-align: center; }
+@media (max-width: 560px) {
+  .blog-content .decision-branches { flex-direction: column; }
+}
+
+/* Parallel-item grid (non-sequential causes/factors) */
+.blog-content .cause-card { background: var(--paper-raised); border-radius: 20px; box-shadow: var(--shadow); padding: 24px; margin: 28px 0; }
+.blog-content .cause-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.blog-content .cause-item { display: flex; align-items: flex-start; gap: 12px; padding: 14px 16px; border-radius: 14px; background: var(--paper); border: 1px solid var(--line); transition: transform 0.18s ease; }
+.blog-content .cause-item:hover { transform: translateY(-2px); }
+.blog-content .cause-num { flex-shrink: 0; width: 28px; height: 28px; border-radius: 50%; background: linear-gradient(135deg, var(--accent), var(--accent-strong)); color: var(--on-accent-strong); font-weight: 700; font-size: 13px; display: flex; align-items: center; justify-content: center; }
+.blog-content .cause-text { font-size: 13.5px; font-weight: 600; color: var(--ink); line-height: 1.35; padding-top: 3px; }
 
 .blog-share { display: flex; align-items: center; gap: 10px; margin: 36px 0 28px; }
 .blog-share-label { font-size: 13px; font-weight: 600; color: var(--ink-soft); margin-right: 4px; }
