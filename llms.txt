@@ -1,28 +1,28 @@
 # vertriebsprozesse-digitalisieren.de
 
-> Hands-on-Beratung und Umsetzung für Kundenmanagement (CRM), Angebotsmanagement (CPQ) und Auftragsmanagement bei kleinen und mittelständischen B2B-Unternehmen im DACH-Raum. Fixpreise statt Tagessätze, ein automatisierter Anwendungsfall pro Schritt, produktiv in 1–2 Wochen.
+> CRM-, Angebots- und Auftragsmanagement-Beratung für KMU im DACH-Raum – digitale Vertriebsinfrastruktur aus einer Hand.
 
 Stig Hendrik Dreyer ist unabhängiger Berater für digitale Vertriebsinfrastruktur. Der Fokus liegt auf der Lücke zwischen Lead-Erfassung, Angebotserstellung und Auftragsabwicklung, die bei kleinen und mittelständischen Unternehmen häufig noch manuell überbrückt wird.
 
 ## Leistungen
-
-- [CRM automatisieren](https://vertriebsprozesse-digitalisieren.de/crm-automatisieren/): CRM-Konfiguration, Automatisierung und Datenqualität, für ein bereits eingeführtes CRM, das im Alltag tatsächlich genutzt wird, oder für ein erstes CRM-System.
-- [Angebotsprozess automatisieren](https://vertriebsprozesse-digitalisieren.de/angebotsprozess-automatisieren/): Schnelle, verbindliche Angebotserstellung – Preislogik, Freigaben und automatisierter Abschluss, ohne dass ein vollständiges CPQ-System der erste Schritt sein muss.
-- [Auftragsmanagement automatisieren](https://vertriebsprozesse-digitalisieren.de/auftragsmanagement-automatisieren/): Automatisierung der Auftragsabwicklung nach Vertragsabschluss.
+- [CRM automatisieren](https://vertriebsprozesse-digitalisieren.de/crm-automatisieren/): CRM automatisieren, Vertriebsprozesse strukturieren, wirklich nutzen. Für KMU und Gründer:innen. Fixpreise, unverbindliches Erstgespräch.
+- [Angebotsprozess automatisieren](https://vertriebsprozesse-digitalisieren.de/angebotsprozess-automatisieren/): Angebotsprozess automatisieren – schnell, verbindlich, ohne CPQ-Komplexität, bis zum automatisierten Abschluss. Fixpreise, Erstgespräch.
+- [Auftragsprozesse strukturieren](https://vertriebsprozesse-digitalisieren.de/auftragsmanagement-automatisieren/): Auftragsprozesse strukturieren – Aufträge automatisch erfassen, Lieferstatus transparent machen, ohne ERP-Projekt. Fixpreise, Erstgespräch.
 
 ## Blog
-
-- [CRM eingeführt, aber niemand nutzt es – 5 Gründe und Lösungen](https://vertriebsprozesse-digitalisieren.de/blog/crm-eingefuehrt-aber-nicht-genutzt/): Fünf typische Gründe für gescheiterte CRM-Adoption und was konkret dagegen hilft, ohne Neustart.
-- [Brauchst du als Gründer:in wirklich ein CPQ-System?](https://vertriebsprozesse-digitalisieren.de/blog/cpq-system-als-gruender-noetig/): Was Gründer:innen und kleine Unternehmen für einen schnellen, professionellen Angebotsprozess wirklich brauchen.
-- [Brauchst du wirklich ein ERP? Ein einfacher Realitäts-Check](https://vertriebsprozesse-digitalisieren.de/blog/erp-realitaetscheck-kleine-unternehmen/): Ein symptombasierter Check, ob dein Auftragsprozess tatsächlich ein ERP braucht.
-- [3 einfache CRM-Workflow-Automatisierungen für eingehende Leads](https://vertriebsprozesse-digitalisieren.de/blog/3-crm-workflow-automatisierungen-fuer-inbound-leads/): Lead-Routing, Follow-up-Erinnerungen und Sofort-Benachrichtigungen, vendor-neutral und sofort umsetzbar.
+- [Blog](https://vertriebsprozesse-digitalisieren.de/blog/): Praxisnahe Beiträge zu CRM, Angebotsprozessen (CPQ) und Auftragsmanagement – konkrete Workflows, ehrliche Realitäts-Checks und Automatisierungen, die du direkt umsetzen kannst. Für Gründer:innen und kleine B2B-Unternehmen, ohne Enterprise-Komplexität.
+- [Angebot direkt per E-Mail annehmen lassen, ohne Rückruf – so geht's](https://vertriebsprozesse-digitalisieren.de/blog/angebot-per-email-annehmen/): Ein Angebot per E-Mail annehmen zu lassen ist in Deutschland rechtlich unproblematisch. So baust du den Ablauf – ganz ohne Rückruf oder Unterschrift.
+- [Erstes CRM einführen als Gründer:in – so gehst du es richtig an](https://vertriebsprozesse-digitalisieren.de/blog/erstes-crm-einfuehren/): Erstes CRM einführen ohne Überbau: In fünf Schritten vom verstreuten Postfach zu einem CRM, das dein Team wirklich nutzt. Vendor-neutral und sofort umsetzbar.
+- [Brauchst du wirklich ein ERP? Ein einfacher Realitäts-Check](https://vertriebsprozesse-digitalisieren.de/blog/erp-realitaetscheck-kleine-unternehmen/): ERP klingt nach einem großen, teuren Projekt. Ein einfacher Check, ob dein Auftragsprozess wirklich ein ERP braucht – oder eine gezielte Automatisierung reicht.
+- [Brauchst du als Gründer:in wirklich ein CPQ-System?](https://vertriebsprozesse-digitalisieren.de/blog/cpq-system-als-gruender-noetig/): CPQ klingt nach Enterprise-Software. Was Gründer:innen für einen schnellen, professionellen Angebotsprozess wirklich brauchen – und was nicht.
+- [CRM eingeführt, aber niemand nutzt es – 5 Gründe und Lösungen](https://vertriebsprozesse-digitalisieren.de/blog/crm-eingefuehrt-aber-nicht-genutzt/): Dein CRM ist technisch live, wird aber kaum genutzt? Fünf typische Gründe für gescheiterte CRM-Adoption – und was konkret dagegen hilft, ohne Neustart.
+- [3 einfache CRM-Workflow-Automatisierungen für eingehende Leads](https://vertriebsprozesse-digitalisieren.de/blog/3-crm-workflow-automatisierungen-fuer-inbound-leads/): Drei CRM-Automatisierungen für einen Nachmittag: Lead-Routing, Follow-up-Erinnerungen und Sofort-Benachrichtigungen. Vendor-neutral, sofort umsetzbar.
 
 ## Über
 
-- [Startseite](https://vertriebsprozesse-digitalisieren.de/): Positionierung, Prozessübersicht, Leistungsarten, Über mich.
-- [Kontakt](https://vertriebsprozesse-digitalisieren.de/kontakt/): Terminbuchung und Kontaktformular.
+- [Vertriebsprozesse digitalisieren | CRM, CPQ, Auftragsmanagement](https://vertriebsprozesse-digitalisieren.de/): CRM-, Angebots- und Auftragsmanagement-Beratung für KMU im DACH-Raum – digitale Vertriebsinfrastruktur aus einer Hand.
+- [Kontakt](https://vertriebsprozesse-digitalisieren.de/kontakt/): Kostenloses, unverbindliches Erstgespräch anfragen – Kontaktformular für CPQ-, CRM- und Auftragsmanagement-Beratung.
 
 ## Rechtliches
-
 - [Impressum](https://vertriebsprozesse-digitalisieren.de/impressum/)
 - [Datenschutzerklärung](https://vertriebsprozesse-digitalisieren.de/datenschutz/)
