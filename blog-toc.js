@@ -61,3 +61,31 @@
   window.addEventListener("resize", onScroll);
   update();
 })();
+
+/* Back-to-top button, independent of the TOC logic above (still useful on a short post with no
+   TOC) — appears after scrolling past the hero, scrolls smoothly back to the top on click. */
+(function () {
+  var btn = document.querySelector(".back-to-top");
+  if (!btn) return;
+
+  function update() {
+    btn.classList.toggle("is-visible", window.scrollY > 600);
+  }
+
+  var ticking = false;
+  function onScroll() {
+    if (ticking) return;
+    ticking = true;
+    window.requestAnimationFrame(function () {
+      update();
+      ticking = false;
+    });
+  }
+
+  btn.addEventListener("click", function () {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+
+  window.addEventListener("scroll", onScroll, { passive: true });
+  update();
+})();

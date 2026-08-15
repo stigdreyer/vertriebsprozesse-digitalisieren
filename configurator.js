@@ -104,6 +104,13 @@
       closeModal(closeTrigger.closest('.service-modal'));
       return;
     }
+
+    var basketCta = e.target.closest('.basket-cta');
+    if (basketCta && !basketCta.disabled) {
+      var kontakt = document.getElementById('kontakt');
+      if (kontakt) kontakt.scrollIntoView({ behavior: 'smooth' });
+      return;
+    }
   });
 
   document.addEventListener('keydown', function (e) {
