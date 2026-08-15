@@ -22,3 +22,24 @@
     if (window.innerWidth > 720) close();
   });
 })();
+
+/* Keeps the Leistungen dropdown's aria-expanded in sync with the CSS-only :hover/:focus-within
+   reveal in styles.css (.nav-dropdown:hover .nav-dropdown-menu, ...:focus-within ...) — the menu
+   itself needs no JS to open, but a static aria-expanded="false" would misreport its state to
+   screen readers once a mouse or keyboard user actually reveals it. */
+(function () {
+  var dropdown = document.querySelector(".nav-dropdown");
+  var trigger = dropdown && dropdown.querySelector(".nav-dropdown-trigger");
+  if (!dropdown || !trigger) return;
+
+  function setExpanded(expanded) {
+    trigger.setAttribute("aria-expanded", expanded ? "true" : "false");
+  }
+
+  dropdown.addEventListener("mouseenter", function () { setExpanded(true); });
+  dropdown.addEventListener("mouseleave", function () { setExpanded(false); });
+  dropdown.addEventListener("focusin", function () { setExpanded(true); });
+  dropdown.addEventListener("focusout", function (e) {
+    if (!dropdown.contains(e.relatedTarget)) setExpanded(false);
+  });
+})();
