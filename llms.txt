@@ -11,6 +11,7 @@ Stig Hendrik Dreyer ist unabhängiger Berater für digitale Vertriebsinfrastrukt
 
 ## Blog
 - [Blog: CRM, CPQ & Auftragsmanagement](https://vertriebsprozesse-digitalisieren.de/blog/): Praxisnahe Beiträge zu CRM, Angebotsprozessen (CPQ) und Auftragsmanagement – konkrete Workflows und Automatisierungen, die du direkt umsetzen kannst.
+- [Digitale Vertriebsinfrastruktur als Gründer:in aufbauen](https://vertriebsprozesse-digitalisieren.de/blog/digitale-vertriebsinfrastruktur-als-gruender-aufbauen/): Kein CRM, kein Angebotsprozess, keine Auftragsverwaltung – und trotzdem gegründet. So baust du digitale Vertriebsinfrastruktur in der richtigen Reihenfolge auf.
 - [Vertriebsprozesse digitalisieren: In 5 Schritten zum Ergebnis](https://vertriebsprozesse-digitalisieren.de/blog/vertriebsprozesse-digitalisieren/): Vertriebsprozesse digitalisieren heißt nicht: Tool kaufen. Der Weg über CRM, CPQ und Auftragsmanagement in 5 Schritten – mit echten Praxis-Ergebnissen.
 - [Angebot per E-Mail annehmen lassen, ohne Rückruf – so geht's](https://vertriebsprozesse-digitalisieren.de/blog/angebot-per-email-annehmen/): Ein Angebot per E-Mail annehmen zu lassen ist in Deutschland rechtlich unproblematisch. So baust du den Ablauf – ganz ohne Rückruf oder Unterschrift.
 - [Erstes CRM einführen als Gründer:in – so gehst du es richtig an](https://vertriebsprozesse-digitalisieren.de/blog/erstes-crm-einfuehren/): Erstes CRM einführen ohne Überbau: In fünf Schritten vom verstreuten Postfach zu einem CRM, das dein Team wirklich nutzt. Vendor-neutral und sofort umsetzbar.
