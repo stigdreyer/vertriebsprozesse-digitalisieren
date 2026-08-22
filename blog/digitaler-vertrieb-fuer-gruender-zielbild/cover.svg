@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="blob-orange" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff5d3a" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ff5d3a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blob-purple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c5cff" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#7c5cff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="630" fill="#f5f6fa"/>
+  <circle cx="1050" cy="160" r="340" fill="url(#blob-orange)"/>
+  <circle cx="60" cy="560" r="280" fill="url(#blob-purple)"/>
+
+  <!-- logo (verbatim from static/logo.svg, repositioned/scaled) -->
+  <g transform="translate(100,60) scale(1.55)">
+    <g transform="translate(-28.55, -2.85) scale(0.13)">
+      <g stroke="#e6431f" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none">
+        <path d="M320 190h60l40 30h12"/>
+        <path d="M432.3 220a65 65 0 1 1 92.7 85"/>
+        <path d="M290 230h70l40 20h130"/>
+        <path d="M270 270h90l40-20"/>
+        <path d="M340 310h40l40-30h50l40-30"/>
+        <path d="M400 160a130 130 0 0 1 19.2-19l19.1 29.3a95 95 0 0 1 31.9-13.2l-7.2-34.3a130 130 0 0 1 54 0l-7.2 34.3a95 95 0 0 1 31.9 13.2l19.1-29.3a130 130 0 0 1 38.2 38.2l-29.3 19.1a95 95 0 0 1 13.2 31.9l34.3-7.2a130 130 0 0 1 0 54l-34.3-7.2a95 95 0 0 1-13.2 31.9l29.3 19.1a130 130 0 0 1-38.2 38.2l-19.1-29.3a95 95 0 0 1-31.9 13.2l7.2 34.3a130 130 0 0 1-54 0l7.2-34.3A95 95 0 0 1 440 330"/>
+      </g>
+      <g stroke="#e6431f" stroke-width="10" fill="#f5f6fa">
+        <circle cx="400" cy="160" r="10"/>
+        <circle cx="440" cy="330" r="10"/>
+        <circle cx="320" cy="190" r="10"/>
+        <circle cx="290" cy="230" r="10"/>
+        <circle cx="270" cy="270" r="10"/>
+        <circle cx="340" cy="310" r="10"/>
+      </g>
+      <circle cx="525" cy="305" r="14" fill="#e6431f"/>
+    </g>
+    <text x="60" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="-0.4" fill="#12121a">vertriebsprozesse</text>
+    <text x="60" y="50" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="-0.4" fill="#e6431f">digitalisieren</text>
+  </g>
+
+  <!-- badge pill -->
+  <rect x="100" y="152" width="330" height="36" rx="18" fill="#ffe4da"/>
+  <text x="118" y="175" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="0.06em" fill="#d13917">CRM · CPQ · AUFTRAGSMANAGEMENT</text>
+
+  <!-- title -->
+  <text x="100" y="272" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif" font-size="50" font-weight="800" letter-spacing="-0.6" fill="#12121a">Digitaler Vertrieb für</text>
+  <text x="100" y="332" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif" font-size="50" font-weight="800" letter-spacing="-0.6" fill="#12121a">Gründer:innen: So sieht</text>
+  <text x="100" y="392" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif" font-size="50" font-weight="800" letter-spacing="-0.6" fill="#12121a">das Zielbild aus</text>
+
+  <!-- divider -->
+  <line x1="100" y1="540" x2="1100" y2="540" stroke="#e4e6ed" stroke-width="1.5"/>
+
+  <!-- footer -->
+  <text x="100" y="578" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif" font-size="18" font-weight="600" fill="#52525f">Stig Hendrik Dreyer</text>
+  <text x="1100" y="578" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif" font-size="16" fill="#70707e" text-anchor="end">vertriebsprozesse-digitalisieren.de</text>
+</svg>
