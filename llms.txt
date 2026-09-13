@@ -5,7 +5,7 @@
 Stig Hendrik Dreyer ist unabhängiger Berater für digitale Vertriebsinfrastruktur. Der Fokus liegt auf der Lücke zwischen Lead-Erfassung, Angebotserstellung und Auftragsabwicklung, die bei kleinen und mittelständischen Unternehmen häufig noch manuell überbrückt wird.
 
 ## Leistungen
-- [CRM automatisieren](https://vertriebsprozesse-digitalisieren.de/crm-automatisieren/): CRM automatisieren, Vertriebsprozesse strukturieren, wirklich nutzen. Für KMU und Gründer:innen. Fixpreise, unverbindliches Erstgespräch.
+- [CRM automatisieren](https://vertriebsprozesse-digitalisieren.de/crm-automatisieren/): CRM Beratung für KMU und Gründer:innen: CRM automatisieren, Vertriebsprozesse strukturieren, wirklich nutzen. Fixpreise, unverbindliches Erstgespräch.
 - [Angebotsprozess automatisieren](https://vertriebsprozesse-digitalisieren.de/angebotsprozess-automatisieren/): Angebotsprozess automatisieren – schnell, verbindlich, ohne CPQ-Komplexität, bis zum automatisierten Abschluss. Fixpreise, Erstgespräch.
 - [Auftragsprozesse strukturieren](https://vertriebsprozesse-digitalisieren.de/auftragsmanagement-automatisieren/): Auftragsprozesse strukturieren – Aufträge automatisch erfassen, Lieferstatus transparent machen, ohne ERP-Projekt. Fixpreise, Erstgespräch.
 
