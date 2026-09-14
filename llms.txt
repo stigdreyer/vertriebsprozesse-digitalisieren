@@ -9,6 +9,10 @@ Stig Hendrik Dreyer ist unabhängiger Berater für digitale Vertriebsinfrastrukt
 - [Angebotsprozess automatisieren](https://vertriebsprozesse-digitalisieren.de/angebotsprozess-automatisieren/): Angebotsprozess automatisieren – schnell, verbindlich, ohne CPQ-Komplexität, bis zum automatisierten Abschluss. Fixpreise, Erstgespräch.
 - [Auftragsprozesse strukturieren](https://vertriebsprozesse-digitalisieren.de/auftragsmanagement-automatisieren/): Auftragsprozesse strukturieren – Aufträge automatisch erfassen, Lieferstatus transparent machen, ohne ERP-Projekt. Fixpreise, Erstgespräch.
 
+## Werkzeugkasten
+- [Werkzeugkasten](https://vertriebsprozesse-digitalisieren.de/werkzeugkasten/): Kostenlose Selbsttests und Vorlagen für CRM, CPQ und Auftragsmanagement – in wenigen Minuten wissen, wo der nächste Schritt liegt.
+- [CRM-Adoption-Check: Wird euer CRM wirklich genutzt?](https://vertriebsprozesse-digitalisieren.de/werkzeugkasten/crm-adoption-check/): 15 Fragen, 3 Minuten: Finde heraus, ob euer CRM ein Datenfriedhof, halb genutzt oder wirklich im Alltag verankert ist – inklusive der zwei nächsten Schritte.
+
 ## Blog
 - [Blog: CRM, CPQ & Auftragsmanagement](https://vertriebsprozesse-digitalisieren.de/blog/): Praxisnahe Beiträge zu CRM, Angebotsprozessen (CPQ) und Auftragsmanagement – konkrete Workflows und Automatisierungen, die du direkt umsetzen kannst.
 - [Lieferstatus für Kund:innen transparent machen – ohne Portal](https://vertriebsprozesse-digitalisieren.de/blog/lieferstatus-transparent-machen/): Lieferstatus für Kund:innen transparent machen gelingt meist ohne eigenes Kundenportal. Drei leichte Bausteine gegen Unsicherheit und Rückfragen.
