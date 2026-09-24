@@ -15,6 +15,7 @@ Stig Hendrik Dreyer ist unabhängiger Berater für digitale Vertriebsinfrastrukt
 
 ## Blog
 - [Blog: CRM, CPQ & Auftragsmanagement](https://vertriebsprozesse-digitalisieren.de/blog/): Praxisnahe Beiträge zu CRM, Angebotsprozessen (CPQ) und Auftragsmanagement – konkrete Workflows und Automatisierungen, die du direkt umsetzen kannst.
+- [Zahlungslink direkt ins Angebot integrieren: eine Anleitung für kleine Teams](https://vertriebsprozesse-digitalisieren.de/blog/zahlungslink-im-angebot/): Wie du einen Zahlungslink direkt in dein Angebot einbaust, damit aus einer Zusage sofort eine Zahlung wird, ohne CPQ-System, mit Stripe, Mollie oder PayPal.
 - [CRM-Pipeline-Phasen richtig einrichten (mit Beispiel)](https://vertriebsprozesse-digitalisieren.de/blog/crm-pipeline-phasen-einrichten/): CRM-Pipeline-Phasen richtig einrichten heißt: wenige, klare Zustände statt zehn vager Schritte. Mit konkretem Beispiel und den häufigsten Fehlern.
 - [Lieferstatus für Kund:innen transparent machen – ohne Portal](https://vertriebsprozesse-digitalisieren.de/blog/lieferstatus-transparent-machen/): Lieferstatus für Kund:innen transparent machen gelingt meist ohne eigenes Kundenportal. Drei leichte Bausteine gegen Unsicherheit und Rückfragen.
 - [Was ist CPQ? Definition, Funktionsweise und die passende Software](https://vertriebsprozesse-digitalisieren.de/blog/was-ist-cpq/): CPQ steht für Configure, Price, Quote. Was der Begriff bedeutet und welche CPQ-Software wirklich zu deiner Unternehmensgröße passt.
