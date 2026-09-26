@@ -459,6 +459,24 @@ Kostenloses, unverbindliches Erstgespräch anfragen – Kontaktformular für CPQ
 
 
 
+## So setze ich KI ein
+
+Auf dieser Website arbeite ich mit KI-Werkzeugen. Auf dieser Seite erkläre ich, wobei sie mir helfen und wer für die Inhalte geradesteht.
+Stand dieser Seite: 26.09.2026
+Wer hinter den Inhalten steht Hinter dieser Website stehe ich, Stig Hendrik Dreyer, als unabhängiger Berater für digitale Vertriebsinfrastruktur. Ich schreibe und pflege die Seite allein. Jeder Blogartikel nennt mich als Autor, und für jeden Text hier stehe ich mit meinem Namen ein, auch wenn KI beim Entwurf geholfen hat. Stimmt etwas nicht, ist das mein Fehler.
+Warum ich KI nutze Weil ich allein arbeite, nimmt mir KI Zeit bei Recherche, Entwürfen, Grafiken und Code ab. Diese Zeit stecke ich in die Projekte mit meinen Kund:innen und in die Prüfung dessen, was hier erscheint.
+KI im Vertrieb ist außerdem Teil meiner Beratung. Wenn ich mit dir besprechen will, wo KI deinem Angebots- oder Auftragsprozess hilft, sollte ich aus eigener Arbeit wissen, was sie gut kann und wo sie danebenliegt.
+Wofür ich KI nutze Für Blogartikel nutze ich KI bei der Themenrecherche, der Gliederung, der Quellensuche und für einen ersten Entwurf. Danach lese ich jeden Artikel, korrigiere ihn und ergänze meine eigene Einschätzung aus der Praxis. Ohne meine Freigabe erscheint kein Artikel. Zahlen und Studien verlinke ich mit Quelle, damit du sie selbst nachprüfen kannst.
+Auch die Seiten zu meinen Leistungen entwerfe und überarbeite ich mit KI-Unterstützung. Online geht nur, was ich gelesen und freigegeben habe.
+Titelbilder und Grafiken im Blog entstehen teilweise mit KI. Den Code dieser Website und die Werkzeuge im Werkzeugkasten entwickle ich ebenfalls mit KI-Unterstützung.
+Wofür ich KI nicht nutze Im Erstgespräch und in deinem Projekt sprichst du mit mir persönlich. Auf dieser Website gibt es keinen Chatbot, der an meiner Stelle antwortet.
+Grenzen der Inhalte Die Artikel und Werkzeuge auf dieser Website geben dir Orientierung für deine Vertriebsprozesse. Sie ersetzen keine Beratung zu deinem konkreten Fall und keine Rechts- oder Steuerberatung. Preise, Funktionen und Konditionen von Anbietern ändern sich, deshalb nenne ich dazu den Stand, auf den sich die Angaben beziehen.
+Wer rechtlich für diese Website verantwortlich ist, steht im Impressum. Wie ich mit deinen Daten umgehe, erkläre ich in der Datenschutzerklärung.
+Fehler gefunden? Wenn dir etwas auffällt, das nicht oder nicht mehr stimmt, schreib mir an stig.dreyer@vertriebsprozesse-digitalisieren.de. Ich prüfe jeden Hinweis und korrigiere den Text, wenn nötig.
+
+
+
+
 ## Impressum – Vertriebsprozesse Digitalisieren
 
 Angaben gemäß § 5 DDG busy brain UG (haftungsbeschränkt)
@@ -472,7 +490,7 @@ Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV Stig Hendrik Dreyer
 An der Waldschmiede 22
 28790 Schwanewede
 Deutschland
-Hinweis zu KI-gestützten Inhalten Texte, Bilder und andere Inhalte auf dieser Website entstehen teilweise mit Unterstützung von KI-Systemen. Alle veröffentlichten Inhalte werden vor der Veröffentlichung redaktionell geprüft und verantwortet von Stig Hendrik Dreyer (siehe &ldquo;Verantwortlich für den Inhalt&rdquo; oben).
+Hinweis zu KI-gestützten Inhalten Einige Inhalte dieser Website entstehen mit Unterstützung von KI-Systemen und werden vor der Veröffentlichung von Stig Hendrik Dreyer geprüft und verantwortet (siehe &ldquo;Verantwortlich für den Inhalt&rdquo; oben). Wofür KI hier eingesetzt wird und wofür nicht, steht unter So setze ich KI ein.
 EU-Streitschlichtung Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr/. Unsere E-Mail-Adresse finden Sie oben im Impressum.
 Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
 Haftung für Inhalte Als Diensteanbieter sind wir gemäß § 7 Abs. 1 DDG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 DDG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.
