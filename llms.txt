@@ -15,6 +15,7 @@ Stig Hendrik Dreyer ist unabhängiger Berater für digitale Vertriebsinfrastrukt
 
 ## Blog
 - [Blog: CRM, CPQ & Auftragsmanagement](https://vertriebsprozesse-digitalisieren.de/blog/): Praxisnahe Beiträge zu CRM, Angebotsprozessen (CPQ) und Auftragsmanagement – konkrete Workflows und Automatisierungen, die du direkt umsetzen kannst.
+- [Auftragsmanagement vs. ERP: Was ist der Unterschied?](https://vertriebsprozesse-digitalisieren.de/blog/auftragsmanagement-vs-erp/): Auftragsmanagement ist ein Prozess, ein ERP-System eine Software. Was beide unterscheidet, wo sie sich überschneiden und welche Bereiche für ein ERP sprechen.
 - [Zahlungslink direkt ins Angebot integrieren: eine Anleitung für kleine Teams](https://vertriebsprozesse-digitalisieren.de/blog/zahlungslink-im-angebot/): Wie du einen Zahlungslink direkt in dein Angebot einbaust, damit aus einer Zusage sofort eine Zahlung wird, ohne CPQ-System, mit Stripe, Mollie oder PayPal.
 - [CRM-Pipeline-Phasen richtig einrichten (mit Beispiel)](https://vertriebsprozesse-digitalisieren.de/blog/crm-pipeline-phasen-einrichten/): CRM-Pipeline-Phasen richtig einrichten heißt: wenige, klare Zustände statt zehn vager Schritte. Mit konkretem Beispiel und den häufigsten Fehlern.
 - [Lieferstatus für Kund:innen transparent machen – ohne Portal](https://vertriebsprozesse-digitalisieren.de/blog/lieferstatus-transparent-machen/): Lieferstatus für Kund:innen transparent machen gelingt meist ohne eigenes Kundenportal. Drei leichte Bausteine gegen Unsicherheit und Rückfragen.
