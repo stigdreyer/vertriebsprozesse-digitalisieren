@@ -53,6 +53,24 @@ Auftragsabwicklung digitalisieren: Auftragserfassung automatisieren, Lieferstatu
 - Auftrags- & Stammdatenbereinigung (Daten-Management, 500 €, 0,5 Tage · remote): Eine saubere Stamm- und Auftragsdatenbasis, bevor ein neues System oder eine Automatisierung mit alten Fehlern startet.
 
 
+## Vertrieb mit KI automatisieren
+
+Vertriebsautomatisierung mit KI für KMU: KI im Vertrieb praktisch umsetzen, von der Lead-Qualifizierung bis zum Angebotsentwurf. Fixpreise, Erstgespräch.
+
+
+- KI-Opportunity-Scan (Assessment, 1000 €, 1 Tag · remote): Wir finden die zwei, drei Stellen in deinem Vertriebsprozess, an denen KI wirklich Arbeit abnimmt, und prüfen vorher, ob sie sich rechnen.
+
+- KI-Lead-Qualifizierung (Lead & Kundenmanagement, 1500 €, 1,5 Tage · remote): Eingehende Anfragen werden automatisch gelesen, mit Firmendaten angereichert und nach deinen Kriterien bewertet, bevor jemand sie anfasst.
+
+- Gesprächsnotizen ins CRM (Lead & Kundenmanagement, 1000 €, 1 Tag · remote): Aus Call-Mitschnitten oder Notizen entstehen strukturierte CRM-Einträge mit nächsten Schritten, ohne dass jemand nachträglich tippt.
+
+- KI-Angebotsentwurf aus Kundenanfragen (Angebotsmanagement, 2000 €, 2 Tage · remote): Eine Anfrage per E-Mail wird ausgelesen und in einen Angebotsentwurf mit den passenden Positionen übersetzt, den dein Team nur noch prüft.
+
+- KI-Follow-up für offene Angebote (Angebotsmanagement, 1000 €, 1 Tag · remote): Offene Angebote bekommen rechtzeitig ein persönliches Nachfassen als Entwurf, statt im Postfach zu verstauben.
+
+- KI-Auftragserfassung aus Bestellungen (Auftragsmanagement, 2000 €, 2 Tage · remote): Bestellungen als PDF oder E-Mail werden ausgelesen, mit dem Angebot abgeglichen und als Auftrag angelegt, statt abgetippt zu werden.
+
+
 
 ## Werkzeugkasten
 
