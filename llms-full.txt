@@ -72,7 +72,7 @@ Leads qualifizieren, Angebote entwerfen, Ausschreibungen vorbereiten: KI im Vert
 
 ## Werkzeugkasten
 
-Kostenlose Selbsttests und Vorlagen für CRM, CPQ und Auftragsmanagement – in wenigen Minuten wissen, wo der nächste Schritt liegt.
+Kostenlose Selbsttests und Vorlagen für CRM, Angebote, Aufträge und KI im Vertrieb – in wenigen Minuten wissen, wo der nächste Schritt liegt.
 
 
 
@@ -88,6 +88,45 @@ Nicht sofort neu ausschreiben oder migrieren: zuerst klären, welche der fünf U
 Eure größte Baustelle: –. Genau hier setzt mein Solution Review an: ein bezahlter 1-Tages-Check, der euer Ergebnis in priorisierte nächste Schritte übersetzt.
 Neu startenNächste Schritte besprechen → Weiterlesen Mehr zum Hintergrund der fünf Ursachen, oder der passendere Einstieg, falls ihr noch ganz am Anfang steht.
 Die 5 Ursachen im Detail Warum CRM-Adoption meistens scheitert, und was dagegen hilft, ohne alles neu aufzusetzen. Mehr → Noch kein CRM im Einsatz? Der saubere erste Schritt vom Excel-Chaos zum ersten echten CRM. Mehr → 
+
+
+## KI-Use-Case-Canvas für den Vertrieb: Vorlage zum Ausfüllen
+
+Du hast eine Aufgabe im Vertrieb im Kopf, die KI übernehmen könnte? Mit diesem Canvas beschreibst du sie so konkret, dass du beurteilen kannst, ob und wie sie sich automatisieren lässt.
+Dein KI-Use-Case-Canvas Du arbeitest lieber mit Stift und Papier? Lade die Vorlage als PDF herunter (A4, eine Seite) oder füll den Canvas unten direkt hier im Browser aus.
+Use Case Ein kurzer Name für genau eine Aufgabe.
+Stufe im Vertrieb Wo im Weg eines Deals die Aufgabe liegt.
+Neukundengewinnung Anfragen &amp; Leads Kundengespräche Angebote &amp; Ausschreibungen Pipeline &amp; Vertriebswissen Bestandskund:innen &amp; Aufträge 1. Der Ablauf heute Auslöser Was startet die Aufgabe? Eine E-Mail, ein neuer Datensatz, ein fester Termin.
+Input Was kommt an, und in welchem Format? Freitext, PDF, Formular, Export.
+Häufigkeit und heutiger Aufwand Wie oft pro Woche, und wie viele Minuten pro Fall?
+2. Wer was übernimmt Was die KI übernimmt Lesen, recherchieren, schreiben oder einschätzen: was genau?
+Was eine einfache Regel übernimmt Alles, was immer gleich abläuft: weiterleiten, Status setzen, erinnern, rechnen.
+KI lohnt sich, wenn …
+Eingaben als Freitext oder Dokument ankommen vorher recherchiert oder zusammengefasst werden muss eine Einschätzung nötig ist, die keine Wenn-dann-Regel fasst die Arbeit mehrmals pro Woche anfällt Eine einfache Regel reicht, wenn …
+die Daten schon strukturiert sind, etwa aus einem Formular der Ablauf immer gleich ist ein Fehler teuer wäre und das Ergebnis vorhersehbar sein muss, wie bei Preisen 3. Absicherung Freigabe Wer prüft, bevor etwas an Kund:innen geht oder Preise berührt?
+Datenquellen und Zielsystem Woher kommen die Daten (CRM, Postfach, ERP, Preisliste), wo landet das Ergebnis?
+Datenschutz und Risiken Welche personenbezogenen Daten sieht das Modell, und was passiert, wenn es sich irrt?
+4. Ziel Erfolgskriterium Woran merkst du nach ein paar Wochen, dass es funktioniert?
+Ausgefüllt? Bring den Canvas ins kostenlose Erstgespräch: vertriebsprozesse-digitalisieren.de/kontakt/
+Als PDF speichern / drucken Leere Vorlage als PDF Alles bleibt in deinem Browser, nichts wird gespeichert oder gesendet. Im Druckdialog kannst du „Als PDF speichern“ wählen.
+So sieht ein ausgefüllter Canvas aus Drei Beispiele mit erfundenen Firmen und angenommenen Mengen. Sie zeigen, wie konkret die Antworten sein sollten.
+Anfrage-TriageAnfragen &amp; Leads Angebots&shy;entwurfAngebote &amp; Ausschreibungen Bestell&shy;rückgangBestandskund:innen &amp; Aufträge Beispiel, vereinfacht Anfrage-Triage im Sammelpostfach Muster Maschinenbau GmbH · Anfragen aus dem Sammelpostfach einordnen und weitergeben
+Anfragen &amp; Leads 1 Der Ablauf heute
+AuslöserNeue E-Mail an vertrieb@ oder neues Webformular InputFreitext-E-Mails, teils mit PDF-Anhang; Formular mit Name, Firma und Nachricht Häufigkeit und AufwandAngenommen rund 15 Anfragen pro Woche, je etwa 10 Minuten für Lesen, Recherche und Weiterleiten 2 Wer was übernimmt
+Was die KI übernimmtAnfrage zusammenfassen, Firmendaten ergänzen, nach unseren Kriterien (Branche, Menge, Termin) bewerten und die Bewertung begründen Was eine Regel übernimmtZuständigkeit nach Postleitzahl, Aufgabe im CRM anlegen, Erinnerung, wenn nach einem Tag niemand reagiert hat 3 Absicherung
+FreigabeEs geht keine Antwort automatisch raus. Die zuständige Person prüft die Bewertung und meldet sich selbst. Datenquellen und ZielsystemPostfach, Website der Firma, Registerdaten; Ziel ist der Lead mit Bewertung im CRM Datenschutz und RisikenName und E-Mail der Person, Modell mit Auftragsverarbeitungsvertrag. Bei falscher Einstufung korrigiert der Vertrieb, Unklares landet auf einer Prüfliste. 4 Ziel
+ErfolgskriteriumJede Anfrage ist am selben Tag der richtigen Person zugeordnet, und Bewertungen müssen nur selten korrigiert werden. Beispiel, vereinfacht Angebotsentwurf aus der Anfrage Muster Technik GmbH · Aus einer Kundenanfrage einen Angebotsentwurf erstellen
+Angebote &amp; Ausschreibungen 1 Der Ablauf heute
+AuslöserEine Anfrage wird im CRM als „angebotsreif“ markiert InputAnfrage als E-Mail-Text, manchmal mit Stückliste oder Skizze als PDF Häufigkeit und AufwandAngenommen 8 Angebote pro Woche, je etwa 45 Minuten bis zum ersten Entwurf 2 Wer was übernimmt
+Was die KI übernimmtAnforderungen aus der Anfrage lesen, Produkten und Varianten zuordnen, Begleittext formulieren, fehlende Angaben als Rückfrage auflisten Was eine Regel übernimmtPreise, Rabatte und Kombinationsregeln aus Preisliste oder CPQ, nie aus dem Sprachmodell; Angebotsnummer und Vorlage 3 Absicherung
+FreigabeDer Innendienst prüft jeden Entwurf. Rabatte außerhalb der Leitplanken gibt die Vertriebsleitung frei. Datenquellen und ZielsystemCRM (Anfrage, Kundendaten), Produktkatalog, Preisliste; Ziel ist der Angebotsentwurf im CRM oder CPQ Datenschutz und RisikenKontaktdaten der Ansprechperson und Kundenkonditionen. Unsichere Zuordnungen von Varianten markiert der Entwurf, die Freigabe fängt sie ab. 4 Ziel
+ErfolgskriteriumDer erste Entwurf liegt am selben Tag vor, und der Innendienst ändert vor allem Texte, kaum Positionen. Beispiel, vereinfacht Bestellrückgang früh erkennen Muster Handel GmbH · Sinkende Bestellungen bei Bestandskund:innen melden
+Bestandskund:innen &amp; Aufträge 1 Der Ablauf heute
+AuslöserFester Termin, jeweils am ersten Montag im Monat InputBestellhistorie als Export aus dem ERP, offene Reklamationen und letzte E-Mails aus dem CRM Häufigkeit und AufwandEinmal im Monat. Heute macht das niemand systematisch, Rückgänge fallen erst in der Jahresauswertung auf. 2 Wer was übernimmt
+Was die KI übernimmtZu jedem auffälligen Fall den Kontext aus E-Mails und Reklamationen zusammenfassen und einen Gesprächsanlass vorschlagen Was eine Regel übernimmtDie auffälligen Fälle finden: letzte Bestellung, Bestellabstand und Volumen im Vergleich zum Vorjahr 3 Absicherung
+FreigabeDie Liste geht nur intern an die Account-Verantwortlichen. Der Kontakt zu Kund:innen läuft weiter persönlich. Datenquellen und ZielsystemERP (Bestellungen), CRM (Kontakte, Reklamationen), Postfach; Ziel ist eine Beobachtungsliste mit Aufgaben im CRM Datenschutz und RisikenAnsprechpersonen und E-Mail-Inhalte. Saisonale Kund:innen tauchen fälschlich auf; die Account-Verantwortlichen markieren sie als bekannt. 4 Ziel
+ErfolgskriteriumJeder auffällige Rückgang wird innerhalb eines Monats besprochen. Die Felder sind dieselben, die wir im Use-Case-Design gemeinsam ausarbeiten. Ein ausgefüllter Canvas ist damit die halbe Vorbereitung für das erste Gespräch. Welche Aufgaben sich für KI im Vertrieb eignen, zeigt die Übersicht der Anwendungsfälle vom Lead bis zum Auftrag.
+
 
 
 

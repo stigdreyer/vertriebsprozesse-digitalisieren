@@ -11,8 +11,9 @@ Stig Hendrik Dreyer ist unabhängiger Berater für digitale Vertriebsinfrastrukt
 - [Vertrieb mit KI automatisieren](https://vertriebsprozesse-digitalisieren.de/vertrieb-mit-ki-automatisieren/): Leads qualifizieren, Angebote entwerfen, Ausschreibungen vorbereiten: KI im Vertrieb für KMU, umgesetzt zum Fixpreis ab 1.000 €. Kostenloses Erstgespräch.
 
 ## Werkzeugkasten
-- [Werkzeugkasten](https://vertriebsprozesse-digitalisieren.de/werkzeugkasten/): Kostenlose Selbsttests und Vorlagen für CRM, CPQ und Auftragsmanagement – in wenigen Minuten wissen, wo der nächste Schritt liegt.
+- [Werkzeugkasten](https://vertriebsprozesse-digitalisieren.de/werkzeugkasten/): Kostenlose Selbsttests und Vorlagen für CRM, Angebote, Aufträge und KI im Vertrieb – in wenigen Minuten wissen, wo der nächste Schritt liegt.
 - [CRM-Adoption-Check: Wird euer CRM wirklich genutzt?](https://vertriebsprozesse-digitalisieren.de/werkzeugkasten/crm-adoption-check/): 15 Fragen, 3 Minuten: Finde heraus, ob euer CRM ein Datenfriedhof, halb genutzt oder wirklich im Alltag verankert ist, inklusive der zwei nächsten Schritte.
+- [KI-Use-Case-Canvas für den Vertrieb: Vorlage zum Ausfüllen](https://vertriebsprozesse-digitalisieren.de/werkzeugkasten/ki-use-case-canvas/): Eine Vertriebsaufgabe, die KI übernehmen soll, auf einer Seite planen: Auslöser, Daten, Freigabe, Risiken. Mit drei Beispielen, als PDF speicherbar.
 
 ## Blog
 - [Blog: CRM, CPQ & Auftragsmanagement](https://vertriebsprozesse-digitalisieren.de/blog/): Praxisnahe Beiträge zu CRM, Angebotsprozessen (CPQ) und Auftragsmanagement – konkrete Workflows und Automatisierungen, die du direkt umsetzen kannst.

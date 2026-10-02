@@ -279,4 +279,79 @@
   }
 
   Array.prototype.slice.call(document.querySelectorAll('[data-tool="score"]')).forEach(initScoreTool);
+
+  // Worksheet/canvas tools: the print button only works with JS, so it ships [hidden] and is
+  // revealed here. Typed content prints straight from the form fields, no copying needed.
+  Array.prototype.slice.call(document.querySelectorAll('[data-tool-print]')).forEach(function (btn) {
+    btn.hidden = false;
+    btn.addEventListener('click', function () { window.print(); });
+  });
+
+  // Worked examples as tabs ([data-example-tabs], the "Ablage-Stapel" on the KI-Use-Case-Canvas).
+  // Progressive enhancement: the server-rendered HTML shows every sheet and hides the tab bar, so
+  // crawlers and no-JS visitors get all three examples; this reveals the tabs and shows one sheet at
+  // a time. WAI-ARIA tabs pattern: roving tabindex, arrow keys / Home / End move and select.
+  Array.prototype.slice.call(document.querySelectorAll('[data-example-tabs]')).forEach(function (root) {
+    var tabs = Array.prototype.slice.call(root.querySelectorAll('[role="tab"]'));
+    var panels = tabs.map(function (tab) { return document.getElementById(tab.getAttribute('aria-controls')); });
+    function select(i, focus) {
+      tabs.forEach(function (tab, j) {
+        tab.setAttribute('aria-selected', String(i === j));
+        tab.tabIndex = i === j ? 0 : -1;
+        panels[j].hidden = i !== j;
+      });
+      if (focus) tabs[i].focus();
+    }
+    tabs.forEach(function (tab, i) {
+      tab.addEventListener('click', function () { root.classList.add('has-switched'); select(i); });
+      tab.addEventListener('keydown', function (e) {
+        var next = { ArrowRight: i + 1, ArrowLeft: i - 1, Home: 0, End: tabs.length - 1 }[e.key];
+        if (next === undefined) return;
+        e.preventDefault();
+        root.classList.add('has-switched');
+        select((next + tabs.length) % tabs.length, true);
+      });
+    });
+    root.querySelector('[role="tablist"]').hidden = false;
+    root.classList.add('is-tabbed');
+    select(0);
+  });
+
+  // Worksheet/canvas tools: a live character count under every textarea with a maxlength (added
+  // 2026-10-03 audit). Native maxlength stops typing and truncates a paste silently; this makes the
+  // limit visible, linked via aria-describedby, and says so once through a polite live region when
+  // the limit is reached or a paste got cut. Without JS the limit still holds, just unexplained.
+  var canvas = document.querySelector('.canvas');
+  if (canvas) {
+    var live = document.createElement('p');
+    live.className = 'visually-hidden';
+    live.setAttribute('aria-live', 'polite');
+    canvas.appendChild(live);
+    Array.prototype.slice.call(canvas.querySelectorAll('textarea[maxlength]')).forEach(function (ta) {
+      var count = document.createElement('p');
+      var wasFull = false;
+      var cut = false;
+      count.className = 'canvas-count no-print';
+      count.id = ta.id + '-count';
+      ta.insertAdjacentElement('afterend', count);
+      ta.setAttribute('aria-describedby', ((ta.getAttribute('aria-describedby') || '') + ' ' + count.id).trim());
+      ta.addEventListener('beforeinput', function (e) {
+        if (e.inputType !== 'insertFromPaste' || !e.dataTransfer) return;
+        var selected = ta.selectionEnd - ta.selectionStart;
+        cut = ta.value.length - selected + e.dataTransfer.getData('text/plain').length > ta.maxLength;
+      });
+      function update() {
+        var full = ta.value.length >= ta.maxLength;
+        var note = cut ? ' · eingefügter Text gekürzt' : (full ? ' · Limit erreicht' : '');
+        count.textContent = ta.value.length + ' / ' + ta.maxLength + ' Zeichen' + note;
+        count.classList.toggle('is-full', full);
+        if (cut) live.textContent = 'Eingefügter Text wurde auf ' + ta.maxLength + ' Zeichen gekürzt.';
+        else if (full && !wasFull) live.textContent = 'Limit von ' + ta.maxLength + ' Zeichen erreicht.';
+        wasFull = full;
+        cut = false;
+      }
+      ta.addEventListener('input', update);
+      update();
+    });
+  }
 })();
