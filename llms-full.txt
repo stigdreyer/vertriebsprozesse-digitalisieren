@@ -55,20 +55,18 @@ Auftragsabwicklung digitalisieren: Auftragserfassung automatisieren, Lieferstatu
 
 ## Vertrieb mit KI automatisieren
 
-Vertriebsautomatisierung mit KI für KMU: KI im Vertrieb praktisch umsetzen, von der Lead-Qualifizierung bis zum Angebotsentwurf. Fixpreise, Erstgespräch.
+Vertriebsautomatisierung mit KI für KMU: Leads, Angebote, Ausschreibungen und Bestandskund:innen mit KI im Vertrieb unterstützen. Fixpreise, Erstgespräch.
 
 
-- KI-Opportunity-Scan (Assessment, 1000 €, 1 Tag · remote): Wir finden die zwei, drei Stellen in deinem Vertriebsprozess, an denen KI wirklich Arbeit abnimmt, und prüfen vorher, ob sie sich rechnen.
+- KI-Opportunity-Scan (Einstieg, 1000 €, 1 Tag · remote): Wir finden die zwei, drei Stellen in deinem Vertriebsprozess, an denen KI am meisten Zeit oder Umsatz bringt, und prüfen vorher, ob sie sich rechnen.
 
-- KI-Lead-Qualifizierung (Lead & Kundenmanagement, 1500 €, 1,5 Tage · remote): Eingehende Anfragen werden automatisch gelesen, mit Firmendaten angereichert und nach deinen Kriterien bewertet, bevor jemand sie anfasst.
+- Automatisierungs-Audit (Einstieg, 1000 €, 1 Tag · remote): Ein Check deiner bestehenden Automatisierungen und KI-Werkzeuge: Was läuft verlässlich, wo liegen Risiken, und wo verschenkst du Potenzial?
 
-- Gesprächsnotizen ins CRM (Lead & Kundenmanagement, 1000 €, 1 Tag · remote): Aus Call-Mitschnitten oder Notizen entstehen strukturierte CRM-Einträge mit nächsten Schritten, ohne dass jemand nachträglich tippt.
+- Use-Case-Design (Konzeption, 1500 €, 1–2 Tage · remote): Ein ausgewählter Use Case wird so genau beschrieben, dass die Umsetzung planbar ist: Ablauf, Daten, Freigaben, Testfälle und ein Fixpreis.
 
-- KI-Angebotsentwurf aus Kundenanfragen (Angebotsmanagement, 2000 €, 2 Tage · remote): Eine Anfrage per E-Mail wird ausgelesen und in einen Angebotsentwurf mit den passenden Positionen übersetzt, den dein Team nur noch prüft.
+- KI-Infrastruktur einrichten (Infrastruktur, 1000 €, 1 Tag · remote): Die technische Basis für alle weiteren Use Cases: Automatisierungswerkzeug, Zugang zum Sprachmodell, Zugriffsrechte und Monitoring, einmalig sauber aufgesetzt.
 
-- KI-Follow-up für offene Angebote (Angebotsmanagement, 1000 €, 1 Tag · remote): Offene Angebote bekommen rechtzeitig ein persönliches Nachfassen als Entwurf, statt im Postfach zu verstauben.
-
-- KI-Auftragserfassung aus Bestellungen (Auftragsmanagement, 2000 €, 2 Tage · remote): Bestellungen als PDF oder E-Mail werden ausgelesen, mit dem Angebot abgeglichen und als Auftrag angelegt, statt abgetippt zu werden.
+- Use-Case-Umsetzung (Umsetzung, 2500 €, 2,5 Tage · remote): Ein Use Case wird gebaut, mit echten Daten getestet und an dein Team übergeben. Der Preis gilt für einen Standard-Use-Case mit einem Auslöser und bis zu zwei angebundenen Systemen.
 
 
 

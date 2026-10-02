@@ -8,7 +8,7 @@ Stig Hendrik Dreyer ist unabhängiger Berater für digitale Vertriebsinfrastrukt
 - [CRM automatisieren](https://vertriebsprozesse-digitalisieren.de/crm-automatisieren/): CRM Beratung für KMU und Gründer:innen: CRM automatisieren, Vertriebsprozesse strukturieren, wirklich nutzen. Fixpreise, unverbindliches Erstgespräch.
 - [Angebotsprozess automatisieren](https://vertriebsprozesse-digitalisieren.de/angebotsprozess-automatisieren/): Angebotsprozess automatisieren: schnell und verbindlich, ohne CPQ-Komplexität, bis zum automatisierten Abschluss. Fixpreise, Erstgespräch.
 - [Auftragsabwicklung digitalisieren](https://vertriebsprozesse-digitalisieren.de/auftragsmanagement-automatisieren/): Auftragsabwicklung digitalisieren: Auftragserfassung automatisieren, Lieferstatus transparent machen, ohne ERP-Projekt. Fixpreise, Erstgespräch.
-- [Vertrieb mit KI automatisieren](https://vertriebsprozesse-digitalisieren.de/vertrieb-mit-ki-automatisieren/): Vertriebsautomatisierung mit KI für KMU: KI im Vertrieb praktisch umsetzen, von der Lead-Qualifizierung bis zum Angebotsentwurf. Fixpreise, Erstgespräch.
+- [Vertrieb mit KI automatisieren](https://vertriebsprozesse-digitalisieren.de/vertrieb-mit-ki-automatisieren/): Vertriebsautomatisierung mit KI für KMU: Leads, Angebote, Ausschreibungen und Bestandskund:innen mit KI im Vertrieb unterstützen. Fixpreise, Erstgespräch.
 
 ## Werkzeugkasten
 - [Werkzeugkasten](https://vertriebsprozesse-digitalisieren.de/werkzeugkasten/): Kostenlose Selbsttests und Vorlagen für CRM, CPQ und Auftragsmanagement – in wenigen Minuten wissen, wo der nächste Schritt liegt.
