@@ -37,9 +37,9 @@ Angebotsprozess automatisieren: schnell und verbindlich, ohne CPQ-Komplexität, 
 - Produkt- & Preisdaten-Cleanup (Daten-Management, 500 €, 0,5 Tage · remote): Eine saubere Datenbasis, bevor Prozesse oder Automatisierungen auf deinem Angebotsprozess aufsetzen.
 
 
-## Auftragsprozesse strukturieren
+## Auftragsabwicklung digitalisieren
 
-Auftragsprozesse strukturieren: Aufträge automatisch erfassen, Lieferstatus transparent machen, ohne ERP-Projekt. Fixpreise, Erstgespräch.
+Auftragsabwicklung digitalisieren: Auftragserfassung automatisieren, Lieferstatus transparent machen, ohne ERP-Projekt. Fixpreise, Erstgespräch.
 
 
 - Auftragsprozess-Review (Assessment, 1000 €, 1 Tag · remote): Eine schnelle Ist-Analyse deines Auftragsprozesses von der Bestellung bis zur Lieferung – der ideale erste Schritt vor einer tieferen Zusammenarbeit, egal ob mit oder ohne dediziertes Auftragssystem.
