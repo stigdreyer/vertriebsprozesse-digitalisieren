@@ -17,6 +17,7 @@ Stig Hendrik Dreyer ist unabhängiger Berater für digitale Vertriebsinfrastrukt
 
 ## Blog
 - [Blog: CRM, CPQ & Auftragsmanagement](https://vertriebsprozesse-digitalisieren.de/blog/): Praxisnahe Beiträge zu CRM, Angebotsprozessen (CPQ) und Auftragsmanagement – konkrete Workflows und Automatisierungen, die du direkt umsetzen kannst.
+- [Auftragsbestätigung: Inhalt, Muster und Versand ohne ERP](https://vertriebsprozesse-digitalisieren.de/blog/auftragsbestaetigung/): Was eine Auftragsbestätigung ist, wann sie den Vertrag schließt, was hineingehört (Vorlage und Muster) und wie du sie ohne ERP automatisch verschickst.
 - [Angebote nachfassen: wann, wie oft und mit welchen Worten](https://vertriebsprozesse-digitalisieren.de/blog/angebote-nachfassen/): Angebote nachfassen ohne zu nerven: wann die erste Nachfrage sinnvoll ist, wie oft du dich meldest, vier Vorlagen und was im B2B rechtlich gilt.
 - [KI im Vertrieb: 12 Beispiele, was im B2B funktioniert](https://vertriebsprozesse-digitalisieren.de/blog/ki-im-vertrieb-beispiele/): KI im Vertrieb an zwölf Beispielen bewertet: was in kleinen B2B-Teams heute funktioniert, was noch reift und was rechtlich oder praktisch scheitert.
 - [Auftragsmanagement vs. ERP: Was ist der Unterschied?](https://vertriebsprozesse-digitalisieren.de/blog/auftragsmanagement-vs-erp/): Auftragsmanagement ist ein Prozess, ein ERP-System eine Software. Was beide unterscheidet, wo sie sich überschneiden und welche Bereiche für ein ERP sprechen.
